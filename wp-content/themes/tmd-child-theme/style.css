@@ -1,0 +1,15 @@
+/*
+Theme Name: TMD Child theme of tmd
+Theme URI: 
+Description: Child theme of tmd theme for the TMD theme
+Author: <a href="https://tirtharay.com.br">Tirtha Ray</a>
+Author URI: 
+Template: tmd
+Version: 
+*/
+
+
+.elementor-location-header{
+    position: absolute;
+    z-index: 9;
+}
