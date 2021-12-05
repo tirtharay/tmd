@@ -177,4 +177,8 @@ class getActorData
             echo '</div>';
         }
     }
+    public function get_actor_deathday()
+    {
+        return '';
+    }
 }
