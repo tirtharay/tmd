@@ -10,9 +10,11 @@ https://developers.themoviedb.org/3
 ## Build Setup
 
 ``` bash
-Extract the files in your localhost folder.
+Download the files.
+Must have Wamp (incase you don´t have it already)
+Put the all files inside a folder called "tmd". 
+Put the "tmd" named folder inside your www folder (incase you are using WAMP)
 Import the .sql file in you local Database (phpmyadmin).
-Must have Wamp
 
 # Run in Localhost server and go you your browser and go to localhost/tmd
 
