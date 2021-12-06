@@ -33,3 +33,6 @@ Import the .sql file in you local Database (phpmyadmin).
 
 ## Bonus
 - [X] Users can register using default Wordpress system
+
+
+# Seems like this API blocks/ doesn´t work on Localhost.So please check http://tirtharay.com.br/ If it doesn´t work on your localhost. I created this site on my own domain.
