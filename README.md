@@ -14,7 +14,11 @@ Download the files.
 You can use Wamp/Mamp/Xamp or any other tool (incase you don´t have it already)
 Put the all files inside a folder called "tmd". 
 Put the "tmd" named folder inside the site folder ( where stays your local site files.)
-Import the .sql file in you local Database (phpmyadmin).
+
+Please download the database zip file from the following link:
+https://tirtharay.com.br/tmd.zip
+
+Extract it and then Import the .sql file in you local Database (phpmyadmin).
 
 # Run in Localhost server and go you your browser and open the site
 
