@@ -1,0 +1,223 @@
+.all-movies-list,
+.all-actor-list,
+.actor-list-slider-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies-list-wrap .owl-nav .owl-prev {
+    position: absolute;
+    left: 10px;
+    font-size: 50px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff!important;
+}
+
+.movies-list-wrap .owl-nav .owl-next {
+    position: absolute;
+    right: 10px;
+    font-size: 50px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff!important;
+}
+
+.movies-list-wrap .owl-nav button span:focus-visible,
+.movies-list-wrap .owl-nav button:focus-visible,
+.movies-list-wrap .owl-nav button:focus {
+    outline: none;
+}
+.filter-row{
+    color: #909090;
+    font-family: "Work Sans", Sans-serif;
+    font-weight: 400;
+    padding-bottom:50px;
+}
+.filter-dd{
+    border-radius: 50px!important;
+    margin-right: 15px;
+    background: #202020;
+    border: 0;
+    color: #fff;
+}
+.row-flex{
+    display: flex;
+}
+.filter-containers{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    float: right;
+}
+.actor-sidebar-filter .filter-containers,
+.movies-sidebar-filter .filter-containers{
+    width: auto;
+}
+.filter-label{
+    width: inherit;
+}
+
+
+.all-movies-list .movie,
+.all-actor-list .actor{
+    width: 20%;
+}
+.actor-list-slider-wrap .actor{
+    width: 25%;
+    padding: 15px;
+} 
+.all-actor-list .actor{
+    margin:0
+}
+.all-movies-list .movie img,
+.all-actor-list .actor img{
+    padding: 10px;
+    width: 100%;
+}
+.movie{
+    position:relative;
+}
+.movie-details{
+    position: relative;
+    bottom: 100%;
+    height: 200px;
+    transform: translateY(0%);
+    transition: 0.5s;
+    padding: 20px;
+    display: none;
+    width: 100%;
+}
+.movie:hover .movie-details{
+    padding-top: 50px;
+    background-color: #181818;
+    transform: translateY(-100%);
+    background: linear-gradient(rgba(27,37,48,0),#181818 48px);
+    display:block;
+    position:absolute;
+    top: 100%;
+}
+.movies-page-info-div h1{
+    font-weight:700;
+    margin:0
+}
+.movies-page-info-div p{
+    margin-bottom:0;
+    float:left;
+}
+.movies-page-info-div .lang .elementor-widget-container{
+    text-transform:uppercase;
+    line-height: 1;
+}
+.actor-list-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.actor{
+    /* margin: 10px; */
+}
+.actor-img{}
+.actor-name,
+.movie-name{
+    color: #FFFFFF;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+}
+.releasedate,
+.genre{
+    color: #ffffffa6;
+    display: block;
+    font-size: 15px;
+}
+.movies-search,
+.movies-genre,
+.actor-search{
+    margin-right: 15px;
+}
+
+//Movies List
+
+.all-movies-list .movies-list-wrap .movie{
+    display:table-cell;
+    padding: 0 5px;
+}
+
+.all-movies-list .movies-list-wrap .movie img{
+    width: 180px;
+    height: 250px !important;
+}
+
+.all-movies-list .paginaion-wrap{
+    text-align:center;
+    width: 100%;
+}
+.pagination-page{
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+}
+.pagination-page{
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    margin:5px;
+}
+.pagination-page.active{
+        border: 1px solid #c36;
+}
+
+
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 768px) {
+    .actor-list-slider-wrap .actor {
+    width: 33%;
+    padding: 15px;
+    }
+    .filter-containers{
+        width: 100%;
+    }
+    .all-movies-list .movie,
+    .all-actor-list .actor{
+        width: 33%;
+    }
+    .mve-img{
+        text-align: center;
+    }
+
+    .detail-img{
+        width: 300px;
+    }
+
+}
+
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 600px) {
+    .actor-list-slider-wrap .actor {
+    width: 50%;
+    padding: 15px;
+    }
+    .all-movies-list .movie,
+    .all-actor-list .actor{
+        width: 50%;
+    }
+    .elementor-shortcode.detail-img{
+        width: 300px;
+    }
+    .movies-sidebar-filter .filter-containers{
+        flex-direction: column;
+    }
+
+
+    .movies-sidebar-filter .filter-containers{
+        float: none;
+    }
+    .movies-sidebar-filter .filter-containers .movies-search,
+    .movies-sidebar-filter .filter-containers .movies-genre,
+    .movies-sidebar-filter .filter-containers .movies-search{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+ 
