@@ -11,12 +11,12 @@ https://developers.themoviedb.org/3
 
 ``` bash
 Download the files.
-Must have Wamp (incase you don´t have it already)
+You can use Wamp/Mamp/Xamp or any other tool (incase you don´t have it already)
 Put the all files inside a folder called "tmd". 
-Put the "tmd" named folder inside your www folder (incase you are using WAMP)
+Put the "tmd" named folder inside the site folder ( where stays your local site files.)
 Import the .sql file in you local Database (phpmyadmin).
 
-# Run in Localhost server and go you your browser and go to localhost/tmd
+# Run in Localhost server and go you your browser and open the site
 
 ```
 
@@ -32,7 +32,5 @@ Import the .sql file in you local Database (phpmyadmin).
 - [X] Actors are filterable by name and movie..
 
 ## Bonus
-- [X] Users can register using default Wordpress system
+- [X] Users can register using default Wordpress system 
 
-
-# Seems like this API blocks/ doesn´t work on Localhost.So please check http://tirtharay.com.br/ If it doesn´t work on your localhost. I created this site on my own domain. Everything works properly on my domain :)
